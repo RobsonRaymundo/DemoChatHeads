@@ -15,6 +15,7 @@ import android.view.View;
 import android.view.WindowManager;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class DroidHeadService extends Service {
     private WindowManager windowManager;
@@ -159,7 +160,7 @@ public class DroidHeadService extends Service {
             public boolean onSingleTapConfirmed(MotionEvent e) {
                 if (StateButton == EnumStateButton.VIEW) {
 
-                    // implementa o codigo aqui
+                    Toast.makeText(context, "Single Tap Confirmed", Toast.LENGTH_SHORT).show();
 
                 } else {
                     Vibrar(100);
