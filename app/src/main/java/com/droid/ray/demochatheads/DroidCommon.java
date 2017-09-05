@@ -14,7 +14,7 @@ import android.widget.Toast;
 
 
 public class DroidCommon {
-    public static String TAG = "DemoChatHeads";
+    public static String TAG = DroidPreferences.PREF_ID;
 
     public static boolean AtivarBotaoFlutuante(final Context context) {
         boolean spf = false;
