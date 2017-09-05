@@ -4,8 +4,8 @@ android {
     compileSdkVersion 26
     buildToolsVersion "26.0.0"
     defaultConfig {
-        applicationId "com.droid.ray.droidturnoff"
-        minSdkVersion 21
+        applicationId "com.droid.ray.demochatheads"
+        minSdkVersion 16
         targetSdkVersion 26
         versionCode 1
         versionName "1.0"
