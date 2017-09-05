@@ -9,7 +9,7 @@ import android.content.SharedPreferences;
 
 public class DroidPreferences {
 
-    public static final String PREF_ID = "DroidTurnOff";
+    public static final String PREF_ID = "DemoChatHeads";
 
     public static void SetInteger(Context context, String chave, int valor) {
         SharedPreferences sharedPreferences = context.getSharedPreferences(PREF_ID, 0);
